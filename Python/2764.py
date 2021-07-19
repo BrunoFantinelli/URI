@@ -1,0 +1,6 @@
+data = str(input())
+nodata = data.replace("/"," ")
+lista = nodata.split()
+print(lista[1]+"/"+lista[0]+"/"+lista[2])
+print(lista[2]+"/"+lista[1]+"/"+lista[0])
+print(lista[0]+"-"+lista[1]+"-"+lista[2])
